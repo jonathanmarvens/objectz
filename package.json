@@ -32,6 +32,6 @@
     "watch-build-src": "npm run build-src -- --watch",
     "watch-test": "npm test -- --watch"
   },
-  "types": "./index.d.ts",
-  "version": "0.0.3"
+  "types": "./src/index.d.ts",
+  "version": "0.0.4"
 }
