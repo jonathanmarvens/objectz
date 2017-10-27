@@ -667,9 +667,12 @@ typings/
 
 
 # --- Custom ---
+.travis.yml
 .vscode/
+tsconfig.json
 /__tests__/
 /coverage/
+/jest.config.js
 /src/**/*.ts
 !/src/**/*.d.ts
 # --- / ---
