@@ -30,7 +30,7 @@ test('`createOwnFrozenObject(…)` returns a frozen object.', () => {
   expect(Object.isFrozen(object002)).toBe(true)
 })
 
-test('`createOwnNonEnumerableFrozenObject` returns a non-enumerable frozen object.', () => {
+test('`createOwnNonEnumerableFrozenObject(…)` returns a non-enumerable frozen object.', () => {
   const object001 = {foo: 'bar'}
   expect(Object.isFrozen(object001)).toBe(false)
   const object002 = createOwnNonEnumerableFrozenObject<typeof object001>(object001)
@@ -54,7 +54,7 @@ test('`createOwnSealedObject(…)` returns a sealed object.', () => {
   expect(Object.isSealed(object002)).toBe(true)
 })
 
-test('`createOwnNonEnumerableSealedObject` returns a non-enumerable frozen object.', () => {
+test('`createOwnNonEnumerableSealedObject(…)` returns a non-enumerable frozen object.', () => {
   const object001 = {foo: 'bar'}
   expect(Object.isSealed(object001)).toBe(false)
   const object002 = createOwnNonEnumerableSealedObject<typeof object001>(object001)
