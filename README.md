@@ -1,4 +1,12 @@
-[![npm](https://img.shields.io/npm/v/objectz.svg?style=flat-square)][shield-npm-version-link] [![npm](https://img.shields.io/npm/l/objectz.svg?style=flat-square)][shield-npm-license-link] __Travis CI__ (`master`)__:__ [![Travis CI - master](https://img.shields.io/travis/jonathanmarvens/objectz/master.svg?style=flat-square)][shield-travis-ci-link] __Travis CI__ (`develop`)__:__ [![Travis CI - develop](https://img.shields.io/travis/jonathanmarvens/objectz/develop.svg?style=flat-square)][shield-travis-ci-link] [![Greenkeeper](https://badges.greenkeeper.io/jonathanmarvens/objectz.svg)][shield-greenkeeper-link]
+[![npm](https://img.shields.io/npm/v/objectz.svg?style=flat-square)][shield-npm-version-link]
+
+[![npm](https://img.shields.io/npm/l/objectz.svg?style=flat-square)][shield-npm-license-link]
+
+__Travis CI__ (`master`)__:__ [![Travis CI - master](https://img.shields.io/travis/jonathanmarvens/objectz/master.svg?style=flat-square)][shield-travis-ci-link]
+
+__Travis CI__ (`develop`)__:__ [![Travis CI - develop](https://img.shields.io/travis/jonathanmarvens/objectz/develop.svg?style=flat-square)][shield-travis-ci-link]
+
+[![Greenkeeper](https://badges.greenkeeper.io/jonathanmarvens/objectz.svg)][shield-greenkeeper-link]
 
 Some utility functions for creating “sealed” and “frozen” JavaScript objects.
 
