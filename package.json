@@ -25,7 +25,7 @@
   "repository": "jonathanmarvens/objectz",
   "scripts": {
     "build-src": "npm run compile-typescript --",
-    "ci-build": "",
+    "ci-build": "npm run build-src && npm test",
     "compile-typescript": "tsc",
     "prepublishOnly": "npm run build-src",
     "test": "jest",
