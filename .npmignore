@@ -667,6 +667,7 @@ typings/
 
 
 # --- Custom ---
+.git/
 .travis.yml
 .vscode/
 tsconfig.json
