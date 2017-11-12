@@ -40,7 +40,7 @@ export const createOwnNonEnumerableFrozenObject = <T>(properties: T) => {
       Object.defineProperty(object, property, {enumerable: false})
     })
   Object.freeze(object)
-  return object
+  return object as ReadOnlyObject<T>
 }
 
 export const createOwnNonEnumerableSealedObject = <T>(properties: T) => {
