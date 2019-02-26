@@ -4,7 +4,7 @@
   "dependencies": {},
   "description": "Some utility functions for creating “sealed” and “frozen” JavaScript objects.",
   "devDependencies": {
-    "@types/jest": "^21.1.5",
+    "@types/jest": "^24.0.7",
     "@types/node": "^8.0.47",
     "jest": "^21.2.1",
     "ts-jest": "^21.1.4",
